@@ -159,6 +159,19 @@ figcaption{
 
 /* different screen sizes  */
 
+@media(min-width:768px){
+  #testimonial{
+    position:relative;
+  }
+  #testimonial::before{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    content:'';
+    border:2px solid var(--primary-color);
+    height: 100%;
+  }
+}
 @media(min-width:996px) {
   .nav-item:not(:last-of-type) .nav-link::after {
     margin-left: 1rem;
@@ -193,16 +206,5 @@ figcaption{
   h5,h2{
     font-size: 2rem;
   }
-
-  #testimonial{
-    position:relative;
-  }
-  #testimonial::before{
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
-    content:'';
-    border:2px solid var(--primary-color);
-    height: 100%;
-  }
 }
+
