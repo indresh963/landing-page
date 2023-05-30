@@ -42,7 +42,7 @@ h5 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: var(---secondary-font);
   line-height: 1.3rem;
   font-weight: 500;
@@ -205,6 +205,10 @@ figcaption{
 
   h5,h2{
     font-size: 2rem;
+  }
+
+  p{
+    font-size: 1.1rem;
   }
 }
 

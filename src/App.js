@@ -140,23 +140,23 @@ function App() {
         <div className='container'>
           <h2 className='mb-4'>Our hardwork speaks itself</h2>
           <div className='row justify-content-between gap-md-0 gap-4' id='testimonial'>
-            <div className='col-md-5 col-10 p-0'>
-              <div className='row align-items-center justify-content-between'>
+            <div className='col-md-5 col-10'>
+              <div className='row align-items-center justify-content-between gap-sm-0 gap-3'>
                 <div className='col-2'>
                   <img className='img-fluid rounded-circle' src={require('./assets/test_3.jfif')} alt='reviews' />
                 </div>
-                <div className='col-10'>
+                <div className='col-sm-10 col-12'>
                   <p className='mb-0'>Emma Brown</p>
                   <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sit blanditiis iure corporis corrupti quae animi recusandae ab porro voluptas. Ipsum, eius in!</span>
                 </div>
               </div>
             </div>
-            <div className='col-md-5 col-10 p-0'>
-              <div className='row align-items-center justify-content-between'>
+            <div className='col-md-5 col-10'>
+              <div className='row align-items-center justify-content-between gap-sm-0 gap-3'>
                 <div className='col-2'>
                   <img className='img-fluid rounded-circle' src={require('./assets/test_2.jfif')} alt='reviews' />
                 </div>
-                <div className='col-10'>
+                <div className='col-sm-10 col-12'>
                   <p className='mb-0'>Monty Smith</p>
                   <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet sit blanditiis iure corporis corrupti quae animi recusandae ab porro voluptas. Ipsum, eius in!</span>
                 </div>
