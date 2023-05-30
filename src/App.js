@@ -142,7 +142,7 @@ function App() {
           <div className='row justify-content-between gap-md-0 gap-4' id='testimonial'>
             <div className='col-md-5 col-10'>
               <div className='row align-items-center justify-content-between gap-sm-0 gap-3'>
-                <div className='col-2'>
+                <div className='col-sm-2 col-3'>
                   <img className='img-fluid rounded-circle' src={require('./assets/test_3.jfif')} alt='reviews' />
                 </div>
                 <div className='col-sm-10 col-12'>
@@ -153,7 +153,7 @@ function App() {
             </div>
             <div className='col-md-5 col-10'>
               <div className='row align-items-center justify-content-between gap-sm-0 gap-3'>
-                <div className='col-2'>
+                <div className='col-sm-2 col-3'>
                   <img className='img-fluid rounded-circle' src={require('./assets/test_2.jfif')} alt='reviews' />
                 </div>
                 <div className='col-sm-10 col-12'>
